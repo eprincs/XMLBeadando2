@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><cicaovi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Cicasema.xsd">
+    
+    <igazgato nev="Erika" szigszam="654321AS"/>
+
+    <gondozo kartyaszam="42" nev="Anna" telefonszam="06303456324"/>
+    <gondozo kartyaszam="56" nev="Eszter" telefonszam="06303456323"/>
+    <gondozo kartyaszam="87" nev="Mónika" telefonszam="06303456325"/>
+    <gondozo kartyaszam="74" nev="Lilla" telefonszam="06301645623"/>
+    <gondozo kartyaszam="13" nev="Kinga" telefonszam="06706345623"/>
+
+    <cica kod="1" kor="2" nev="Macsek" szin="feher" tulajdonos="164321AS"/>
+    <cica kod="2" kor="1" nev="Ciculi" szin="fekete" tulajdonos="342875CG"/>
+    <cica kod="3" kor="5" nev="Miu" szin="feher" tulajdonos="254321AS"/>
+    <cica kod="4" kor="2" nev="Cicca" szin="vörös" tulajdonos="254321AS"/>
+    <cica kod="5" kor="4" nev="Cicuka" szin="feher" tulajdonos="342875CG"/>
+    <cica kod="6" kor="2" nev="Miau" szin="feher" tulajdonos="563421BT"/>
+    
+    <tulajdonos nev="Csilla" szigszam="164321AS"/>
+    <tulajdonos nev="Peti" szigszam="254321AS"/>
+    <tulajdonos nev="Ákos" szigszam="342875CG"/>
+    <tulajdonos nev="Zsófi" szigszam="563421BT"/>
+    
+    <kapcsolat cica="4" gondozo="56"/>
+    <kapcsolat cica="3" gondozo="56"/>
+    <kapcsolat cica="1" gondozo="42"/>    
+    <kapcsolat cica="2" gondozo="42"/>   
+    <kapcsolat cica="5" gondozo="42"/>   
+    <kapcsolat cica="6" gondozo="42"/>   
+    <kapcsolat cica="4" gondozo="42"/>   
+</cicaovi>
